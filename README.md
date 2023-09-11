@@ -67,7 +67,7 @@ $wallet->revertAccountByPrivateKey($privateKey);
 ``` php
 ## Method 1 : BSC RPC Nodes
 $uri = 'https://bsc-dataseed1.defibit.io/';// Mainnet
-// $uri = 'https://data-seed-prebsc-1-s1.binance.org:8545/';// TestNet
+// $uri = 'https://data-seed-prebsc-1-s1.binance.org:8545/';// TestNet Use
 $api = new \Binance\NodeApi($uri);
 
 ## Method 2 : Bscscan Api
